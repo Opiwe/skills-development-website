@@ -17,6 +17,7 @@
     width: 100%;
     object-fit: cover;
     border: 5px solid #F3A712;
+    border-radius: 1rem;
 }
 
 .about .row .content{
@@ -65,6 +66,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 1rem;
 }
 
 .service .box-container .box .info{
@@ -80,6 +82,7 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    border-radius: 1rem;
 }
 
 .service .box-container .box:hover .info{
@@ -115,6 +118,7 @@ button {
   height: 4rem;
   cursor: pointer;
   transform: skew(-0deg);
+  border-radius: 0.5rem;
 }
 
 span {
@@ -134,6 +138,7 @@ button::before {
   opacity: 0;
   z-index: -1;
   transition: all 0.5s;
+  border-radius: 0.5rem;
 }
 
 button:hover {
@@ -180,6 +185,7 @@ button:hover::before {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  border-radius: 1rem;
 }
 
 .card:hover .card__image {

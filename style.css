@@ -2480,7 +2480,8 @@ line 1, sass/pages/_homepage.scss
     .feature figure img {
       width: 100%;
       max-width: 100%;
-      height: auto; }
+      height: auto;
+    }
   /* line 260, sass/pages/_homepage.scss */
   .feature .feature-title {
     color: white;
