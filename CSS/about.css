@@ -26,15 +26,16 @@
 }
 
 .about .row .content h3 {
-  color: #fff;
+  color: #F3A712;
   font-size: 2.5rem;   /* slightly smaller for balance */
   font-weight: 600;    /* makes heading stand out */
   margin-bottom: 1rem; /* spacing below heading */
-  line-height: 1.3;    /* improves readability */
+  line-height: 1.3; 
+  font-weight: 800;   /* improves readability */
 }
 
 .about .row .content p {
-  color: #a5a5a5;
+  color: #fff;
   font-size: 1.3rem;   /* more standard for body text */
   padding: 0.5rem 0;   /* reduced padding for tighter layout */
   line-height: 1.6;    /* better readability */
@@ -395,7 +396,7 @@ button:hover::before {
 }
 
 .content-about .btn-about{
-  width: 15em;
+  width: 18rem;
   position: relative;
   height: 3.5em;
   border: 3px ridge #F3A712;
