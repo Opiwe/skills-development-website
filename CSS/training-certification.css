@@ -5,11 +5,12 @@
   padding: 2rem;
 }
 
-.training-heading {
-  font-size: 3rem;
+.training .training-heading {
+  font-size: 48px;
   text-align: center;
   color: #fff;
   margin: 2rem 0;
+  text-align: center;
 }
 
 .training-content {
