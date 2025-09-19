@@ -1849,7 +1849,8 @@ body {
   @media screen and (min-width: 641px) {
     /* line 105, sass/layout/_header.scss */
     .mobile-menu {
-      display: none !important; } }
+      display: none !important; } 
+    }
   /* line 112, sass/layout/_header.scss */
   .mobile-menu .menu {
     list-style: none;
@@ -1868,6 +1869,37 @@ body {
     /* line 126, sass/layout/_header.scss */
     .mobile-menu .menu .current-menu-item a {
       color: #f3a712; }
+
+/* 📱 Mobile (<=641px) */
+@media screen and (max-width: 641px) {
+  .hero .container{
+    margin-top: -50px;
+  }
+  .hero .slider .slides .slide-title {
+    margin: 0;
+    color: white;
+    font-size: 50px;   /* increased for readability */
+    font-weight: 600;
+    line-height: 1.2;
+    transform: scale(1); /* keep normal size */
+    opacity: 1;          /* make it visible */
+    transition: all .3s ease;
+  }
+  .hero .slider .slides .slide-subtitle {
+      color: #f3a712;
+      font-size: 30px;
+      font-weight: 300;
+      -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+              transform: scale(1.3);
+      opacity: 0;
+      -webkit-transition: .3s ease;
+              transition: .3s ease;
+      -webkit-transition-delay: .6s;
+              transition-delay: .6s; 
+            }
+}
+
 
 /* 
  * 	Core Owl Carousel CSS File
@@ -2227,7 +2259,6 @@ line 1, sass/pages/_homepage.scss
       margin: 0;
       color: white;
       font-size: 90px;
-      font-size: 5.625em;
       font-weight: 900;
       line-height: 1;
       -webkit-transform: scale(1.3);
